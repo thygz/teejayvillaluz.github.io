@@ -184,11 +184,11 @@
     }
     .description {
         font-size: 17px;
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .mid, .end {
         font-size: 15px;
-        padding-left: 0px;
+        padding-left: 10px;
     }
     .list-mid {
         padding-left: 20px;
