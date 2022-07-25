@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    background-image: linear-gradient(180deg, rgba(19, 100, 179, 0.8220237924271271) 0%, rgba(33, 66, 122, 0.8382703423166141) 100%), url(https://i.pinimg.com/originals/c0/1f/70/c01f70946c9ae4f43aed4fa3ddf08023.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container-fluid img {
+    width: 200px;
+    height: 70px;
+}
+
+.navbar-nav li {
+    padding-left: 10px;      
+ }
+
+.navbar-nav li a {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    transition: 0.5s;
+}
+
+.navbar-nav li a:hover {
+    color: rgb(66, 177, 232);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.dropdown-menu li a {
+    color: rgb(14, 84, 66);
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(white, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.20);
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+/* appointment */
+
+.contactUs {
+    display: flex;
+    min-height: 100vh;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+}
+
+.appointment {
+    background-color: rgb(100, 134, 169);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    
+
+ 
+}
+
+.call {
+    background-color: rgb(138, 180, 150); 
+    background-size: cover;
+    background-position: center; 
+    height: 20%;
+}
+
+.contact-flex {
+    display: flex;
+    gap: 120px;
+    
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-top: 15px;
+
+}
+
+.contact-flex i {
+    font-size: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+    
+}
+
+
+.call h5{
+    font-weight: bold;
+    margin: 0;
+}
+
+.visit p{
+    font-size: 14px;
+}
+
+.working p {
+    font-size: 14px;
+}
+
+.map {
+    background-color: rgb(104, 125, 80); 
+    background-size: cover;
+    background-position: center;  
+    height: 80%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 20px 20px;
+    padding-left: 50px;
+    padding-top: 20px;
+    gap: 140px;
+    row-gap: 50px;
+    
+
+    grid-template-areas: 
+        "name        phone"
+        "email        date "      
+    ;
+
+}
+
+.vehicle-grid {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 20px 150px;
+    padding-left: 50px;
+    padding-top: 100px;
+    gap: 120px;
+    row-gap: 60px;
+
+    grid-template-areas: 
+        "year      make      model"
+        "reason    reason    reason "      
+    ;
+
+}
+
+.grid input {
+    width: 300px;
+    height: 40px;
+}
+.grid label {
+    font-size: 15px;
+    color: white;
+}
+
+.vehicle-grid input {
+    width: 200px;
+    height: 40px;
+}
+.vehicle-grid label {
+    font-size: 15px;
+    color: white;
+}
+
+.form h5 {
+    padding-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    color: white;   
+}
+
+.reason {
+    color: white;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px;
+}
+
+.submit-btn {
+    color: rgb(31, 53, 69);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 60px;
+    border-radius: 20px;
+    border: 1px solid white;
+    background: linear-gradient(30deg, rgba(123, 187, 220, 0.681) 0%, rgba(82, 169, 194, 0.914) 100%);
+    transition: 0.1s;
+    
+    
+}
+.submit-btn:hover {
+    background: linear-gradient(30deg, rgba(3, 140, 245, 0.681) 0%, rgba(51, 169, 202, 0.914) 100%);
+    color: rgb(245, 247, 248);
+}
+
+
+/* footer */
+
+.footer {
+    background-image: linear-gradient(180deg, rgba(19, 100, 179, 0.8220237924271271) 0%, rgba(33, 66, 122, 0.8382703423166141) 100%), url(https://insights.gfk.com/hubfs/Auto%20Tech_2022.jpg);
+    width: 100%;
+    height: 300px;
+    margin-top: 50px; 
+    background-size: cover;  
+    background-position: center;
+      
+}
+
+.us {
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 13px rgba(0,0,0,0.6);
+    padding: 30px 0;
+}
+
+.us h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+.icon .bi {
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+    
+}
+
+
+
+@media screen and (max-width: 1025px ) {
+    .contactUs {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .appointment {
+        width: auto;
+    }
+
+    .action {
+        width: auto;
+        padding-top: 30px;      
+    }
+
+    .btn-container {
+        padding-bottom: 10px;
+    }
+
+    .map {
+        height: 70vh;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .call h5 {
+        font-size: small;
+    }
+
+    .contact-flex {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .title h1 {
+        font-size: 30px;
+    }
+
+    .grid {
+        display: block;
+    }
+
+    .vehicle-grid {
+        display: block;
+        padding-top: 20px;
+    }
+
+    textarea {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title h1 {
+        font-size: 30px;
+        padding-top: 60px;
+    }
+    .btn-container {
+        padding-top: 10px;
+    }
+    .container-fluid img {
+        width: 150px;
+        height: 50px;
+    }
+    .us p {
+        font-size: 14px;
+    }
+    .footer {
+        margin: 0;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .grid {
+        padding-left: 30px;
+    }
+    .vehicle-grid {
+        padding-left: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 330px) {
+    .grid {
+        padding-left: 10px;
+    }
+    .grid input {
+        width: 280px;
+        height: 40px;
+    }
+    .vehicle-grid {
+        padding-left: 10px;
+    }
+}
+
+
+
+
+
+
+
