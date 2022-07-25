@@ -16,6 +16,8 @@
 .container-fluid img {
     width: 200px;
     height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .navbar-nav li {
@@ -183,6 +185,7 @@
     .container-fluid img {
         width: 150px;
         height: 50px;
+        margin-left: 0px;
     }
     .us p {
         font-size: 14px;

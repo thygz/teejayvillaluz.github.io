@@ -17,6 +17,8 @@
 .container-fluid img {
     width: 200px;
     height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .navbar-nav li {
@@ -207,7 +209,11 @@
     
 }
 
-
+@media screen and (max-width: 1025px) {
+    .image {
+        padding-left: 10px;
+    }
+}
 
 @media screen and (max-width: 800px) {
     .list1  h5 {
@@ -222,10 +228,7 @@
     .list2 ul li {
         font-size: 15px;
     }
-    .image {
-        padding-left: 10px;
-    }  
-   
+  
 }
 
 
@@ -240,12 +243,17 @@
     .imgflex {
         flex-direction: column;
     }
-    .image, .list1, .list2 {
+    .image {
+        padding-left: 10px;
+        padding-top: 30px;
+    }
+    .list1, .list2 {
         width: auto;
     }
   
     .electrical {
         padding-left: 0px;
+        padding-top: 20px;
     }
     .list1  h5 {
         font-size: 18px;
@@ -271,6 +279,7 @@
     .imgbox2 {
         margin-left: 70px;
         margin-top: 20px;
+        padding-top: 10px;
     }
     .image {
         width: auto;
@@ -304,6 +313,7 @@
     .container-fluid img {
         width: 150px;
         height: 50px;
+        margin-left: 0px;
     }
     .us p {
         font-size: 14px;

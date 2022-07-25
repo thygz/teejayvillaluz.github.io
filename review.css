@@ -54,75 +54,74 @@
 
 }
 
-/* Engine Works */
+/* Reviews */
 
-.flex {
-    display: flex;
-    flex-direction: row;
-    min-height: 90vh;
-    
-}
 
-.content {
-    background-image: url(https://media.gettyimages.com/photos/white-gray-cement-wall-texture-for-background-and-design-art-work-picture-id1157933525?b=1&k=20&m=1157933525&s=170667a&w=0&h=Xu_YAIQvQJ209mbTm7GTVhOUxlf_QaGLhPAB0xIf0hs=);
-    background-size: cover;
-    background-position: center;
-    width: 50%;
-}
-
-.image {
-    background-image: url(https://media.gettyimages.com/photos/white-gray-cement-wall-texture-for-background-and-design-art-work-picture-id1157933525?b=1&k=20&m=1157933525&s=170667a&w=0&h=Xu_YAIQvQJ209mbTm7GTVhOUxlf_QaGLhPAB0xIf0hs=);
-    background-size: cover;
-    background-position: center;
-    width: 50%;   
-    padding-top: 95px;
-    padding-left: 60px;
-    
-}
-
-.content h5 {
-    color: rgb(30, 130, 137);
-    font-weight: bold;
-    font-size: 23px;
-    padding-left: 80px;
-}
-
-.description {
+.testimony {
+    width: 80%;
+    margin: auto;
     padding-top: 50px;
+    text-align: left;
+    
 }
-
-.content p {
-    font-size: 18px;
-    padding-left: 80px;
-    padding-bottom: 30px;
+.testify {
+    width: auto;
+    border-radius: 10px;
+    text-align: left;
+    background: rgb(245, 241, 241);
+    padding: 30px;
+    display: flex;
+   
 }
-
-.image1 img {
-    width: 85%;
-    height: 400px;  
+.testimony h2 {
+    font-weight: bold;
 }
-
-.schedule-btn {
-    text-decoration: none;
-    color: rgb(31, 53, 69);
+.reviews h4 {
+    color: rgb(20, 181, 196);
+    font-weight: bold;
+}
+.reviews p {
+    margin: 0;
     font-size: 15px;
-    font-weight: 600;
-    padding: 10px 50px;
-    border-radius: 20px;
-    border: 2px solid rgb(103, 152, 165);
-    background: linear-gradient(30deg, rgba(123, 187, 220, 0.681) 0%, rgba(82, 169, 194, 0.914) 100%);
-    transition: 0.1s;
 }
 
-.schedule-btn:hover {
-    background: linear-gradient(30deg, rgba(3, 140, 245, 0.681) 0%, rgba(51, 169, 202, 0.914) 100%);
-    color: rgb(245, 247, 248);
+
+.testimony-row {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+
 }
 
-.button {
-    margin-top: 50px;  
+.testimony-column {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: rgb(247, 235, 235);
+    padding: 20px;
+    display: flex;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    font-size: 15px;
 }
 
+.testimony-column img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.testimony-column p {
+    padding: 0;
+
+}
+
+.testimony-column h4 {
+    margin-top: 15px;
+    text-align: left;
+    font-size: 17px;
+}
 
 
 /* footer */
@@ -158,59 +157,33 @@
     
 }
 
-@media screen and (max-width: 1025px) {
-    .content h5 {      
-        padding-left: 40px;
-    }
-    .content p {
-        padding-left: 40px;
-    }
-}
-
-
-
 @media screen and (max-width: 800px) {
     .image1 img {
         height: 300px;
     }
-    .content h5 {      
-        font-size: 17px;
+    .testimony-column {
+        width: auto;
     }
-    .content p {
-        font-size: 15px;
-    }
-}
 
+    .testimony-column p {
+        font-size: 12px;
+    }
+    .testimony-row {
+        flex-direction: column;
+    }
+
+    .testimony-column {
+        width: auto;
+    }
+    
+}
 
 @media screen and (max-width: 500px) {
     .title h1 {
         font-size: 30px;
         padding-top: 60px;
     }
-    .flex {
-        flex-direction: column;
-    }
-    .content, .image {
-        width: auto;
-    }
-    .content h5 {
-        font-size: 15px;
-        padding-left: 10px;
-    }
-    .content p {
-        font-size: 13px;
-        padding-left: 10px;
-    }
-    .description{
-        padding-top: 20px;
-    }
-    .image {
-        padding-top: 0px;
-        height: 400px;
-    }
-    .image1 img {
-        height: 300px;
-    }
+    
     .schedule-btn {
         padding: 5px 30px;
     }
@@ -224,6 +197,12 @@
     }
     .us p {
         font-size: 14px;
+    }  
+    .testimony {
+        padding-top: 30px;
+    } 
+    .testimony-row {
+        padding-top: 10px;
     }
 }
 
@@ -237,3 +216,6 @@
     }
  
 }
+
+
+

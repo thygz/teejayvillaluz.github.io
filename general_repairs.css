@@ -17,6 +17,8 @@
 .container-fluid img {
     width: 200px;
     height: 70px;
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 .navbar-nav li {
@@ -157,6 +159,15 @@
     
 }
 
+@media screen and (max-width: 1025px) {
+    .content h5 {   
+        padding-left: 10px;
+    }
+    .content p { 
+        padding-left: 10px;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .image1 img {
         height: 300px;
@@ -199,6 +210,7 @@
     .container-fluid img {
         width: 150px;
         height: 50px;
+        margin-left: 0px;
     }
     .us p {
         font-size: 14px;
