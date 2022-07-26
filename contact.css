@@ -263,8 +263,7 @@
     .form h5 {
         padding-top: 70px;
     }
-  
-   
+}  
 
 @media screen and (max-width: 1025px ) {
     .contactUs {
@@ -392,7 +391,7 @@
         padding-left: 15px;
     }
     .grid input {
-        width: 325px;
+        width: 320px;
     }
     .vehicle-grid input {
         width: 225px;
