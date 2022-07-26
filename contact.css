@@ -253,7 +253,18 @@
     
 }
 
-
+@media screen and (max-width: 1440px ) {
+    .grid {
+        padding-left: 30px;
+    }
+    .vehicle-grid {
+        padding-left: 30px;
+    }
+    .form h5 {
+        padding-top: 70px;
+    }
+  
+   
 
 @media screen and (max-width: 1025px ) {
     .contactUs {
@@ -263,6 +274,7 @@
 
     .appointment {
         width: auto;
+        height: 110vh;
     }
 
     .action {
@@ -284,10 +296,13 @@
     .map {
         height: 70vh;
     }
+    .form h5 {
+        padding-top: 30px;
+    }
 }
 
 @media screen and (max-width: 800px) {
-    .grid{
+    .grid {
         padding-left: 55px;
     }
     .vehicle-grid {
@@ -348,10 +363,9 @@
     textarea {
         max-width: 85%;
     }
-}
-
-
-@media screen and (max-width: 400px) {
+    .appointment {
+        height: 135vh;
+    }
     .grid {
         padding-left: 30px;
     }
@@ -360,6 +374,31 @@
     }
     textarea {
         max-width: 92%;
+    }
+    .grid input {
+        width: 345px;
+    }
+    .vehicle-grid input {
+        width: 250px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .grid {
+        padding-left: 15px;
+    }
+    .vehicle-grid {
+        padding-left: 15px;
+    }
+    .grid input {
+        width: 325px;
+    }
+    .vehicle-grid input {
+        width: 225px;
+    }
+    textarea {
+        max-width: 93%;
     }
     
 }

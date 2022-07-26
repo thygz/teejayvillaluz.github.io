@@ -125,7 +125,7 @@
 .about {
     display: flex;
     flex-direction: row;
-    min-height: 100vh;
+    min-height: 95vh;
     margin-top: 100px;
 }
 
@@ -359,7 +359,6 @@
     .choose li {
         font-size: 15px;
     }
-    
 }
 
 
@@ -383,8 +382,8 @@
     .choose li {
         font-size: 14px;
     }
-
-  
+    
+   
 }
 
 

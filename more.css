@@ -319,10 +319,10 @@
         padding-top: 10px;
     }
     .imgbox1 {
-        margin-left: 70px;
+        margin-left: 60px;
     }
     .imgbox2 {
-        margin-left: 70px;
+        margin-left: 60px;
         margin-top: 20px;
         padding-top: 10px;
     }
@@ -368,10 +368,10 @@
 @media screen and (max-width: 400px) {
 
     .imgbox1 {
-        margin-left: 30px;
+        margin-left: 40px;
     }
     .imgbox2 {
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 20px;
     }
     .button {

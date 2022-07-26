@@ -169,34 +169,23 @@
 
 @media screen and (max-width: 1025px) {
     .description {      
-        padding-left: 20px;
+        padding-left: 60px;
+        padding-top: 30px;
+        font-size: 17px;
     }
     .mid, .end {       
-        padding-left: 20px;
+        padding-left: 60px;
+        font-size: 15px;
     }
     .list-mid {
-        padding-left: 30px;
-        
+        padding-left: 70px;
+        font-size: 15px;
     }
-}
-
-@media screen and (max-width: 800px) {
     .image1 img {
         height: 300px;
-    }
-    .description {
-        font-size: 17px;
-        
-    }
-    .mid, .end {
-        font-size: 15px;
-       
-    }
-    .list-mid {
-       
-        font-size: 15px;
-    }
+    } 
 }
+
 
 @media screen and (max-width: 500px) {
     .title h1 {
@@ -211,19 +200,22 @@
     }
     .description {
         font-size: 17px;
-        padding-left: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 20px;
     }
     .mid, .end {
         font-size: 15px;
-        padding-left: 10px;
+        padding-left: 20px;
+        padding-right: 10px;
     }
     .list-mid {
-        padding-left: 20px;
+        padding-left: 35px;
         font-size: 15px;
     }
     .image {
         padding-top: 0px;
-        height: 400px;
+        height: 380px;
     }
     .image1 img {
         height: 300px;
