@@ -342,6 +342,26 @@
     padding: 18px 0;
 }
 
+@media screen and (max-width: 1025px) {
+    .shop {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .us p {
+        font-size: 15px;
+    }
+
+    .box1 p {
+        font-size: 14px;
+    }
+
+    .choose li {
+        font-size: 15px;
+    }
+    
+}
+
 
 @media screen and (max-width: 800px) {
     .testimony-column {
@@ -364,6 +384,7 @@
         font-size: 14px;
     }
 
+  
 }
 
 
@@ -392,11 +413,6 @@
 
     .shop, .minimap {
         height: 350px;
-    }
-
-    .shop {
-        flex-direction: column;
-        align-items: center;
     }
 
     .testimony-row {

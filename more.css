@@ -213,22 +213,67 @@
     .image {
         padding-left: 10px;
     }
+    .list1  h5 {
+        font-size: 16px;
+    }
+    .list2 h5 {
+        font-size: 16px;      
+    }
+    .list1 ul li {
+        font-size: 13px;
+    }
+    .list2 ul li {
+        font-size: 13px;
+    }
+
+    .image1 img { 
+        width: 240px;
+        height: 200px;
+    }
+    .image2 img {
+        width: 240px;
+        height: 200px;
+    }
+    .image3 img {
+        width: 240px;
+        height: 200px;
+    }
+    .image4 img {
+        width: 240px;
+        height: 200px;
+    }
+    .button {
+        margin-top: 30px;
+    }
+    .schedule-btn {
+        padding: 8px 30px;
+    }
+  
 }
 
 @media screen and (max-width: 800px) {
-    .list1  h5 {
-        font-size: 18px;
+    .image1 img { 
+        width: 170px;
+        height: 160px;
     }
-    .list2 h5 {
-        font-size: 18px;      
+    .image2 img {
+        width: 170px;
+        height: 160px;
     }
-    .list1 ul li {
-        font-size: 15px;
+    .image3 img {
+        width: 170px;
+        height: 160px;
     }
-    .list2 ul li {
-        font-size: 15px;
+    .image4 img {
+        width: 170px;
+        height: 160px;
     }
-  
+    .schedule-btn {
+        padding: 6px 30px;
+    }
+    .button {
+        margin-top: 0px;
+    }
 }
 
 
